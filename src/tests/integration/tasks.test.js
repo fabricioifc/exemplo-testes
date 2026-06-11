@@ -38,6 +38,6 @@ describe("API de tarefas - validação", () => {
                 title: 123
             });
         expect(response.statusCode).toBe(400);
-        expect(response.body.error).toBe("Título dve ser uma string");
+        expect(response.body.error).toBe("Título deve ser uma string");
     });
 });
